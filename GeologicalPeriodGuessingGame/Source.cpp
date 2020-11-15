@@ -31,7 +31,7 @@ int main()
 		int randomNum = GenerateNum();
 		string period = EnumToString(IntToEnum(randomNum));
 
-		cout << "\n\nThe computer has generated a random number that is the starting date of a geological period.\n";
+		cout << "\n\nThe computer has generated a random number that is the starting date of a geological period (1 = million years in the past).\n";
 		cout << "Do you know what the name of this starting period is?\n";
 		cout << "Period starting date: " << randomNum << endl;
 		cout << "Enter your answer: ";
